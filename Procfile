@@ -1,0 +1,1 @@
+web: sh -c "jupyter notebook --debug --port $PORT --ip 0.0.0.0 --no-browser --NotebookApp.allow_origin='*'"

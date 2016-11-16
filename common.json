@@ -1,0 +1,7 @@
+{"gdrive":
+    {
+    "METADATA_SCOPE": true,
+    "FILE_SCOPE": true,
+    "CLIENT_ID": "{{GDRIVE_CLIENT_ID}}"
+    }
+}

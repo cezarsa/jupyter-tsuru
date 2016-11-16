@@ -1,0 +1,6 @@
+hooks:
+    build:
+        - jupyter nbextension enable --py widgetsnbextension
+        - sudo python -m jupyterdrive || true
+        - sed "s/{{GDRIVE_CLIENT_ID}}/$GDRIVE_CLIENT_ID/g" ./common.json > ./common-id.json
+        - cp ./common-id.json ~/.jupyter/nbconfig/common.json
